@@ -1,3 +1,120 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: A Blog
+paginate: 5
+theme: PaperMod
+
+enableRotobsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: A Blog
+  description: "Just a Blog"
+  keywords: [Blog, Portfolio, PaperMod, Linux, Tech, Tutorial]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    
+  label:
+    text: "A Blog"
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "I don't really know what I'll post here, but it will probably be related to Linux/Tech/...\n\n
+    Don't expect any regular content, this is more just meant as a place for me to write things down to maybe help others."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/fischer-felix"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/13825129/felix-fischer"
+    - name: telegram
+      url: "https://t.me/fischerfelix"
+    - name: twitter
+      url: "https://twitter.com/randomfoto_"
+    - name: instagram
+      url: "https://instagram.com/randomfotography_"
+    - name: youtube
+      url: "https://youtube.com/channel/UCZmRZY-Kxtt253GfWqBUZCw"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/a-blog/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: search
+      name: 🔍
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+
+outputs:
+  home:
+    - html
+    - RSS
+    - JSON
