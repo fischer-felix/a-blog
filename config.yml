@@ -1,6 +1,6 @@
 baseURL: https://felixfischer.tech
 languageCode: en-us
-title: A Blog
+title: An Blog
 paginate: 5
 theme: PaperMod
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production
-  title: A Blog
-  description: "Just a Blog"
+  title: An Blog
+  description: "Just an Blog"
   keywords: [Blog, Portfolio, PaperMod, Linux, Tech, Tutorial]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -51,7 +51,7 @@ params:
     apple_touch_icon: "<link / abs url>"
     
   label:
-    text: "A Blog"
+    text: "An Blog"
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
