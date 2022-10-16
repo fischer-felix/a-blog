@@ -1,0 +1,8 @@
+{
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "fronius",
+        "json",
+        "podman",
+        "symo"
+    ]
+}
