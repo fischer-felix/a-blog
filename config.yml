@@ -78,7 +78,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/fischer-felix/f2/content"
+    URL: "https://github.com/fischer-felix/f2/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
