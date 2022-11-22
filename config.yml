@@ -1,6 +1,6 @@
-baseURL: https://felixfischer.tech
+baseURL: https://felixf.eu
 languageCode: en-us
-title: An Blog
+title: f²
 paginate: 5
 theme: PaperMod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production
-  title: An Blog
+  title: f²
   description: "Just an Blog"
   keywords: [Blog, Portfolio, PaperMod, Linux, Tech, Tutorial]
   author: Me
@@ -51,7 +51,7 @@ params:
     apple_touch_icon: "<link / abs url>"
     
   label:
-    text: "An Blog"
+    text: "f²"
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
@@ -68,9 +68,9 @@ params:
     - name: twitter
       url: "https://twitter.com/ffexai"
     - name: instagram
-      url: "https://instagram.com/randomfotography_"
+      url: "https://instagram.com/fischer._felix"
     - name: youtube
-      url: "https://youtube.com/channel/UCZmRZY-Kxtt253GfWqBUZCw"
+      url: "https://youtube.com/@fischer-felix"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -78,7 +78,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/a-blog/content"
+    URL: "https://github.com/fischer-felix/f2/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
